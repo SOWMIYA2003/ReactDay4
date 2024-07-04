@@ -1,0 +1,42 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 35px;
+}
+
+.previous {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+}
+
+
+.character {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4.6em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+  }
